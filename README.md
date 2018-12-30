@@ -1,11 +1,9 @@
-# MASH-Adventure
-
-A React Native project for funsies. Summer 2018.
-
 ![alt text](https://github.com/mpreyes/Mash-Adventure/blob/master/images/MASH.png)
 
 
 
+
+A React Native project for funsies. Summer 2018.
 
 
 Packages Installed:

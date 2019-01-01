@@ -38,7 +38,7 @@ export default class HA_DHR_DHV_CountSandScreen extends React.Component {
     return (
 <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}>You sit oooon the floor and catch your breath.</Text>
+        <Text style={styles.questionStyling}>You sit on the floor and catch your breath.</Text>
 
 
           <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>

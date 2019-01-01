@@ -26,13 +26,13 @@ setInterval(() => {
   this.setState(previousState => {
     return { isShowingQuestion:  true };
   });
-}, 5000);
+}, 3000);
 
 setInterval(() => {
   this.setState(previousState => {
     return { isShowingRandomNum: true,  isDisabledButton: false};
   });
-}, 10000);
+}, 8000);
 
 }
 
@@ -65,7 +65,7 @@ setInterval(() => {
     return (
         
       <View style={styles.parentViewStyling}>
-        <Text style={styles.questionStyling}>Draw a spiral. Or paint a picture. Really just wait here
+        <Text style={styles.questionStyling}>Draw a spiral. Or paint a picture. Really, just wait here
         while I find your magic number. </Text>
         
         <Text style={styles.questionStyling}>{show_question} </Text>

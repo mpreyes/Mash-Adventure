@@ -52,7 +52,6 @@ export default class PlayWithDogScreen extends React.Component {
     {'\n'}
     </Text>
 
-
            <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>
               <Image
             style={{flex:1, height: 350, width: undefined}}
@@ -63,7 +62,8 @@ export default class PlayWithDogScreen extends React.Component {
       </Animatable.View>
 
          <Text style={styles.questionStyling}>
-         {'\t\t'} Still, you're worried. The fox did say it was urgent. Should you go back? Or stay here with the dog? 
+         {'\t\t'} After a bit, the dog circles around you and starts walking away, barking for you to follow. You look back to where you had come from and realize that you have no idea where 
+         you are anymore. You see no signs of the fox, or any other creature besides this dog. You decide to take your chances.
     {'\n'}
      </Text>
 
@@ -72,7 +72,7 @@ export default class PlayWithDogScreen extends React.Component {
 
     <Animatable.View animation="slideInUp" style={styles.adventureGroupButtonStyling}>
       <View style={styles.adventureSoloButtonStyling}>
-  <Button  title="Continue to play with dog"  color="#1698bc"  onPress={() =>
+  <Button  title="Follow the dog"  color="#1698bc"  onPress={() =>
       navigate('ContinueToPlayWithDog', {
       profile: profile,
       mash: {
@@ -96,30 +96,6 @@ export default class PlayWithDogScreen extends React.Component {
     )} />
   </View>
 
-        <View style={styles.adventureSoloButtonStyling}>
-  <Button  title="Go back and look for the fox"  color="#1698bc"  onPress={() =>
-      navigate('Results', {
-      profile: profile,
-      mash: {
-          M: "Mansion",
-          A: "Apartment",
-          S: "Shack",
-          H: "House",
-        },
-        number: {
-        quiz_num: numbers.quiz_num,
-        story_num: 10,
-      },
-      love_interest: love_interest,
-      cities: cities,
-     no_kids: no_kids,
-  professions: professions,
-   vehicles: vehicles,
-    money_in_bank: money_in_bank,
-  type_pet: type_pet,
-     }
-    )} />
-  </View>
         </Animatable.View>
         </ScrollView>
       </View>

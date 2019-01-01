@@ -40,7 +40,7 @@ export default class HA_DontHelpRabbitScreen extends React.Component {
     return (
 <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}>(help ants dont help rabpopopojljlijijoibit.) You saw some twigs near the path you came from, so you decide to get them and place them near the nest. </Text>
+        <Text style={styles.questionStyling}>You saw some twigs near the path you came from, so you decide to get them and place them near the nest. </Text>
 
 
 

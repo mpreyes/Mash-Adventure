@@ -38,7 +38,7 @@ export default class DHA_HR_RavenWithNutScreen extends React.Component {
     return (
 <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}>( you diddddnt help the ants, but you helped the rabbit) You decide you'd better try to find the fox.</Text>
+        <Text style={styles.questionStyling}>You decide you'd better try to find the fox.</Text>
 
 
           <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>

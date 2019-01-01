@@ -42,7 +42,6 @@ import DontHelpAntsScreen from './screens/DontHelpAnts';
 
 import HelpRabbitScreen from './screens/HelpRabbit';
 
-import DerpyDogWithStickScreen from './screens/DerpyDogWithStick';
 import PlayWithDogScreen from './screens/PlayWithDog';
 import ContinueToPlayWithDogScreen from './screens/ContinueToPlayWithDog';
 import RavenWithNutScreen from './screens/RavenWithNut';
@@ -107,6 +106,8 @@ import DHA_DHR_HV_CountSandScreen from './screens/DHA_DHR_HV_CountSand';
 import DHA_HR_HV_EscapeRoomScreen from './screens/DHA_HR_HV_EscapeRoom';
 import DHA_HR_HV_FightMonsterScreen from './screens/DHA_HR_HV_FightMonster';
 import DHA_HR_DHV_FightMonsterScreen from './screens/DHA_HR_DHV_FightMonster';
+import SeriousWizardEndScreen from './screens/SeriousWizardEnd';
+import SeriousWizardChoiceScreen from './screens/SeriousWizardChoice';
 
 
 class HomeScreen extends React.Component {
@@ -271,9 +272,12 @@ const  AppNavigator = createStackNavigator({
 
   DHA_HR_DHV_FightMonster: {screen: DHA_HR_DHV_FightMonsterScreen},
 
-  DerpyDogWithStick: {screen: DerpyDogWithStickScreen},
   PlayWithDog: {screen: PlayWithDogScreen},
   ContinueToPlayWithDog: {screen: ContinueToPlayWithDogScreen},
+
+  SeriousWizardChoice: {screen: SeriousWizardChoiceScreen},
+  SeriousWizardEnd: {screen: SeriousWizardEndScreen},
+
   RavenWithNut: {screen: RavenWithNutScreen},
   OpenTheWalnut:{screen: OpenTheWalnutScreen},
   CountSand: {screen: CountSandScreen},

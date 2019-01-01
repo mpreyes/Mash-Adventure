@@ -40,7 +40,7 @@ export default class DHA_HelpRabbitScreen extends React.Component {
     return (
 <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}>You didnt help the ants but you helped the rabbit</Text>
+        <Text style={styles.questionStyling}>You saw some twigs near the path you came from, so you decide to get them and place them near the nest.</Text>
 
 
 

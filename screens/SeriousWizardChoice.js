@@ -12,7 +12,7 @@ import resultStyle from '../Styles/resultStyle';
 import { material } from 'react-native-typography';
 
 
-export default class HelpRabbitScreen extends React.Component {
+export default class  SeriousWizardChoiceScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {quiz_num: 2, //story_num: Math.floor(Math.random() * 10)};
@@ -40,51 +40,36 @@ export default class HelpRabbitScreen extends React.Component {
     return (
 <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}>You saw some twigs near the path you came from, so you decide to get them and place them near the nest.</Text>
+        <Text style={styles.questionStyling}> Soon enough, you reach the end of the path.</Text>
 
-
-
-
-    <Text style={styles.questionStyling}>
-    {'\t\t'} You head back to the path and grab the sticks as fast as you can. You place them near the nest and sprint to meet up with the fox, whose 
-    impatience got the best of him and has nearly left you yet again. More running for you. You look up at the moon as you run, and you realize that you've lost track of time.
-    All of a sudden, your foot gets caught in a passing tree root and you stumble and fall hard on the ground. You sit up and take a moment to take stock of the damage. Luckily, you didn't sprain 
-    your foot, and only have minor scrapes and bruises. You try to make out where the fox has gone, but he's nowhere in sight. You stand up and lean against a tree, when 
-    all of a sudden you hear barking. The derpiest dog in existence comes bounding up to you excitedly, licking your face and bouncing around. {'\n'}
-    </Text>
-
-
-           <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>
+            <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>
               <Image
             style={{flex:1, height: 350, width: undefined}}
-            source={require('../images/derp_dog_1.png')}
+            source={require('../images/cottage.png')}
             resizeMethod="resize"
             resizeMode="contain"
           />
       </Animatable.View>
 
-         <Text style={styles.questionStyling}>
-         {'\t\t'}  It chases its tail around for a bit, then goes off somewhere and returns with a stick. It seems like it wants to play a game of catch. 
-         The fox is still nowhere in sight, and you're worried that you might lose him. But this dog is just so darn cute. What do you do?
-    {'\n'}
+
+      <Text style={styles.questionStyling}>
+         {'\t\t'}  Hidden behind some impressive-looking foliage is a small cottage
+        with a light at its window. The dog cheerfully opens the door with its nose, and leads you inside. It's cozy and warm,
+         with the smell of old books and bread. The small entryway is filled with manuscripts and scrolls, as is almost every 
+         corner of the cottage. At the far end of the small room is a table, and behind the table sits the wizard you had been following.
+         "B-but how are you here?" you ask. "Well this is my home!" he exclaims, as the dog cheerfully licks his hand. "This is Lae!" he says.
+         "I told him to bring you here, as I had some urgent matters to attend to that I couldn't bring you on. I hope you do forgive me."
+         He stands up from the table and shakes your hand. "My name is Chester, and I'm the town's wizard. I help the townspeople with some 
+         small magic as well as travel around the kindom in search for new spells. I also help the king and his magicians from time to time. I've 
+         been looking for an apprentice for quite some time." he looks a you expectantly. You hesitate. If you want more excitment than a small town wizard can provide, I hear Enelle is looking for an apprentice as well. She might
+        be willing to take you on, but its a lot more difficult and dangerous. 
      </Text>
-
-              <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>
-              <Image
-            style={{flex:1, height: 350, width: undefined}}
-            source={require('../images/derp_dog_2.png')}
-            resizeMethod="resize"
-            resizeMode="contain"
-          />
-      </Animatable.View>
-
-
 
 
     <Animatable.View animation="slideInUp" style={styles.adventureGroupButtonStyling}>
       <View style={styles.adventureSoloButtonStyling}>
-  <Button  title="Play catch with the dog"  color="#1698bc"  onPress={() =>
-      navigate('PlayWithDog', {
+  <Button  title="Accept apprenticeship"  color="#1698bc"  onPress={() =>
+      navigate('SeriousWizardEnd', {
       profile: profile,
       mash: {
           M: "Mansion",
@@ -108,8 +93,8 @@ export default class HelpRabbitScreen extends React.Component {
   </View>
 
         <View style={styles.adventureSoloButtonStyling}>
-  <Button  title="Try to look for the fox"  color="#1698bc"  onPress={() =>
-      navigate('RavenWithNut', {
+  <Button  title="Go back to the beginning"  color="#1698bc"  onPress={() =>
+      navigate('Wizards', {
       profile: profile,
       mash: {
           M: "Mansion",

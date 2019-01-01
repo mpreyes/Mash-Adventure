@@ -68,7 +68,8 @@ export default class RoyalSorcererChoiceScreen extends React.Component {
       
       <Text style={styles.questionStyling}>
        "I sent my loyal companion to where you were to test to see what you were made of. I'm happy to 
-      say that you've exceeded my expectations." you manage to nod your head. "Many a sorcerers are looking for apprentices 
+      say that you've exceeded my expectations. You were honest, took chances, and helped others when they were in need. That is what a true wizard 
+    is all about." you manage to nod your head. "Many a sorcerers are looking for apprentices 
       nowadays. I'm happy to have found you. If you accept, you will join me here and train in all the duties of the royal sorcerer.
       Once you are deemed worthy by the king, you will be expected to take over the duties that a sorcerer is required to attend
       to, and succeed me in my title." she pauses. "This is not a matter to be taken lightly, however. Think carefully now, and if you

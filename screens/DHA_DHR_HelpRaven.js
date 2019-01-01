@@ -38,7 +38,7 @@ export default class DHA_DHR_HelpRavenScreen extends React.Component {
     return (
 <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}>(you didnt help the ants or rabbit, but help the raven.) You decide to help the raven.</Text>
+        <Text style={styles.questionStyling}>You decide to help the raven.</Text>
 
 
           <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>

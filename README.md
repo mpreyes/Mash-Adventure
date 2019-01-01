@@ -1,10 +1,12 @@
 ![alt text](https://github.com/mpreyes/Mash-Adventure/blob/master/images/MASH.png)
 
 
-
-
 A React Native project for funsies. Summer 2018.
 
+Made with: 
+React-Native, Javasscript, HTML, & CSS.
+
+All images mashed (heh, get it.) together from vecteezy.com
 
 Packages Installed:
 

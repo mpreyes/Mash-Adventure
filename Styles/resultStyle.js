@@ -72,5 +72,10 @@ export default StyleSheet.create({
     padding: 15,
     flex: 1,
   },
+  rand_11: {
+    backgroundColor: '#694a82',
+    padding: 15,
+    flex: 1,
+  },
 
 });

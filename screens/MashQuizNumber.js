@@ -32,7 +32,7 @@ setInterval(() => {
   this.setState(previousState => {
     return { isShowingRandomNum: true,  isDisabledButton: false};
   });
-}, 8000);
+}, 1000);
 
 }
 

@@ -55,7 +55,7 @@ export default class BrightlyLitHouseScreen extends React.Component {
     <Text style={styles.questionStyling}>
     {'\t'}You reach the house and see that the door is wide open. You step inside into a cozy and brightly lit room.
    As you admire the artwork on the wall and muse over the choice of wall paint you notice oddly placed packages
-   scattered throught the room. 'These must be for me!' you think, like the self absorbed player you are.
+   scattered throught the room. <Text style={{fontStyle: "italic",}}>These must be for me!</Text> you think, like the self absorbed player you are.
    The game says you can only pick one. Which do you take?
 
      </Text>
@@ -73,7 +73,7 @@ export default class BrightlyLitHouseScreen extends React.Component {
         },
         number: {
         quiz_num: numbers.quiz_num,
-        story_num: 1,
+        story_num: 3,
       },
       love_interest: love_interest,
       cities: cities,

@@ -27,14 +27,14 @@ export default class AboutScreen extends React.Component {
 
         <View style={styles.parentViewStyling}>
          <ScrollView style={styles.textStyling}>
-        <Animatable.Text animation="lightSpeedIn" style={[material.display2]}>About Adventure M.A.S.H.</Animatable.Text>
+        <Animatable.Text animation="lightSpeedIn" style={[material.display2]}>About M.A.S.H. Adventure</Animatable.Text>
 
 
           <Animatable.Text animation="fadeInUpBig" style={material.subheading}>
-       <Text style={material.title}> The idea for adventure M.A.S.H.</Text>
+       <Text style={material.title}> The idea for M.A.S.H. Adventure</Text>
      {'\t'} came to me after a few nights of nothing to do due to being bedridden after an unfortunate accident. 
      Most of those days were spent writing the logic for the actual quiz portion of the game, writing stories, and cobbling pictures together to bring
-     you what I finally called Adventure M.A.S.H.  
+     you what I finally called M.A.S.H. Adventure.
    </Animatable.Text>
 
       <Animatable.Text animation="fadeInUpBig" style={material.subheading}>
@@ -57,7 +57,7 @@ export default class AboutScreen extends React.Component {
 
           <Text>Thanks to
                     <Text style={{color: 'blue'}}
-                onPress={() => Linking.openURL('https://www.vecteezy.com')}> Vecteezy</Text> for allowing me to mutilate your images.  {'\n'}
+                onPress={() => Linking.openURL('https://www.vecteezy.com')}> Vecteezy</Text> for allowing me to mutilate their images.  {'\n'}
           </Text>
 
         <View style={styles.buttonSoloStyling}>

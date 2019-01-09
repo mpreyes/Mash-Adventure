@@ -1,7 +1,8 @@
 ![alt text](https://github.com/mpreyes/Mash-Adventure/blob/master/images/MASH.png)
 
+# A React Native project for funsies. Summer 2018.
 
-A React Native project for funsies. Summer 2018.
+
 
 Made with: 
 React-Native, Javasscript, HTML, & CSS.

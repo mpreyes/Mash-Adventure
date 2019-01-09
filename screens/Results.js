@@ -292,33 +292,31 @@ export default class ResultsScreen extends React.Component {
           and hoped for the best. In an incredible turn of events your flight just barely makes it to your destination, as a snowstorm 
           was currently in your area. As you step outside the airport, you see the snow coming down. You hail one of the remaining cabs to take you to your grandma's cabin and, as you're
           getting in your cab, some rude man sits down before you can. "Hey!" you exclaim. "This is my cab!" he looks over at you as you sit next to him in the backseat.
-          "We can share." he says, despite not knowing where you were headed to. The driver takes off, and you learn you are both headed to the same bed and breakfast. Once you reach your destination, you see how bad the snowstorm has affected this little town.
-          "Sorry, dear. We have only one room booked. It must have been an error in our system. Are you two here together? You can share if you like." Its at this moment, that you realize that this rude man is none 
-          other than {res[1]}, your rented boyfriend. You have no choice. You must share a room.
+          "We can share." he says, despite not knowing where you were headed to. The driver takes off, and you learn you are both headed to the same bed and breakfast. (Weird coincidence, huh?) Once you reach your destination, you see how bad the snowstorm has affected this little town.
+          "Sorry, dear. We have only one room booked. It must have been an error in our system. Are you two here together? You can share if you like." the inkeeper tells you. It's at this moment that you realize that this rude man is none 
+          other than {res[1]}, your rented boyfriend. You have no choice. You must share a room. {'\n'}
 
-          {'\t\t'} 
-
-          {'\t\t'} After a series of hijinks that made you and {res[1]} spend more time together ( For example, you made an adorable snowman together, )
-          
-          
-          , you realize just how much in common you had with your fake boyfriend. 
-          He had a pet {res[7]} and so did you. You mentioned that you thought that the perfect number of kids would be {res[3]} and he agreed. Isn't that all you really need to fall in
+          {'\t\t'} After getting settled in your room, you both head to your grandma's house and start the charade. Your entire family is almost insultingly impressed that you, the slightly more boring, workahaolic member of the family 
+          could land a catch like {res[1]}. The two weeks seem to pass by in a flash. After a series of hijinks that made you and {res[1]} spend more time together (For example, you made an adorable snowman together, had a snowball fight with all the nieces and nephews, 
+          had your very own decorating montage, talked about your hopes and dreams), you realize just how much in common you had with your fake boyfriend. 
+          He had a pet {res[7]}, and so did you. You mentioned that you thought that the perfect number of kids to have would be {res[3]} and he agreed. Isn't that all you really need to fall in
           love with someone?  {'\n'}
-
-
-          {'\t\t'} After the wedding, you moved into a lovely {res[0]}. You had {res[3]} children together (as planned) and
-          continued to work as a {res[4]}, where you were able to save ${res[6]} and drive your {res[5]} on a sightseeing trip as a family.
-
+          </Animatable.Text>
           
 
+                <Image
+                      style={{flex:1, height: 300, width: undefined}}
+                      source={require('../images/christmas_decorations.png')}
+                      resizeMode="contain"
+                    />
 
+            <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
+          {'\t\t'} By the end of the two weeks its only reasonable that your fake boyfriend has become your real one, and an engagment soon followed. 
+          After the wedding, you moved into a lovely {res[0]}. You had {res[3]} children together (as planned) and
+          continued to work as a {res[4]}, where you were able to save ${res[6]} and drive your {res[5]} on a sightseeing trip as a family.
+          </Animatable.Text>
 
-
-
-
-       </Animatable.Text>
  
-
 
        <Animatable.View animation="pulse" easing="ease-out" iterationCount="infinite" style={resultStyle.resultButton}>
      <Button color="#1698bc" title="Go back Home/ Replay?"  onPress={() =>

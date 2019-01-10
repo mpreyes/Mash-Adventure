@@ -772,25 +772,65 @@ export default class ResultsScreen extends React.Component {
 
         <View style={resultStyle.resultsParentStyle}>
         <ScrollView style={resultStyle.rand_10}>
-          <Animatable.Text animation="bounceInDown" style={[material.display2White,resultStyle.headline]}>You Got: The not done ending</Animatable.Text>
+          <Animatable.Text animation="bounceInDown" style={[material.display2White,resultStyle.headline]}>You Got: The Plot Generator Ending</Animatable.Text>
 
-       <Text style={material.titleWhite}>It was a dark but calm night, when your mother took you outside for a walk.</Text>
+       <Text style={material.titleWhite}><Text style={{fontStyle: "italic",}}>Boy</Text>, you think. <Text style={{fontStyle: "italic",}}>The author sure has run out of ideas.</Text></Text>
          <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
-         {'\t'}Well, 'step-mother' to be precise. She had been accustomed to a comfortable life growing up, and the fact that your father (nay the entire village)
-         had fallen on hard times, did not sit well with her. The days grew wearier and wearier, and the meals smaller and smaller until all you and your
-         friend {res[1]} (whom had been taken in by your family after an unfortunate fire) were given was half a loaf of bread and the remnants of the most
-         watery cabbage soup imaginable. Your father tried his best, he really did, but a woodcutter's salary couldn't support four people in these times. 
-         So your step mother came up with the brilliant idea of sending you off into the woods to 'forage for food'. She said she knew a part of the forest
-         where wild berries grew aplenty and that it would be a feast like no other. 
+
+        {'\t\t'} You wake up to the sound of an alarm clock going off. You're disoriented, and your head is spinning. You look around and find yourself in a decently decorated room
+          in what looks to be a small {res[0]}. As you pull off the covers off, you try to remember how you got here. All you get are flashes of events that you can't 
+         really make out, almost like a dream that you've recently had but forgotten. You walk around, completely sure that you'd never been there before. It seems normal enough, with a couch and TV and books strewn about everywhere. 
+         You pick one up, and the cover reads 'Careers: {res[4]}'. You surmise that whoever lives here works in that career, as evidenced by the multitude of related books you see everywhere. Stepping outside the balcony,
+         you hear the sounds of a busy street and feel the sunlight on your face. There's a large sign outside of your window that reads '{res[2]}, the best place in the world!'.
+         Your eyes widen. You're certain that you've never travelled outside your hometown before. {'\n'}
+         </Animatable.Text>
+
+                  <Image
+                  style={{flex:1, height: 300, width: undefined}}
+                  source={require('../images/apple_pie.png')}
+                  resizeMode="contain"
+                />
+
+          <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
+
+         {'\t\t'} Heading back into the living room, you see some peculiar artwork on the walls. There's some pretty inocuous paitings of landscapes 
+         and animals, but the most prominent piece displayed is one of a giant apple pie. You notice that there are pictures on the bookshelf 
+         of a large, bearded man holding up a pie and a trophy, with a big grin on his face. He looks ecstatic in the picture, and you wonder 
+         what kind of person he is. Next to him is presumably his partner, smiling beatifically as if they'd just won the lottery. On the frame, an inscription reads <Text style={{fontStyle: "italic",}}>'{profile.name} and {res[1]}, pie baking contest 2018'</Text>
+         <Text style={{fontStyle: "italic",}}> Nice</Text>, you think. You see other pictures too, mainly of 
+         what you take to be this couple's {res[3]} kid(s) and pet {res[7]}. {'\n'}
+         
+          {'\t\t'} You head into the kitchen with your stomach rumbling, 
+         secretly hoping that there was some of that prize winning pie left over. You pass by the dining room table, and see that very pie you were craving.
+         There's a note attached to it that reads <Text style={{fontStyle: "italic",}}>'Good luck on the contest, dear! I know you'll win the finals!'</Text> You're confused for a second. 
+         The pie is definitely still warm, and it looks like whoever is meant to be entering this contest is nowhere to be found. 
+         You look up from the note, and catch your reflection on a small mirror on the refrigerator. You're so shocked that you almost fall to the ground. 
+         Your face is covered in a large bushy beard. You're taller than you remember, and have the muscles of a lumberjack. The person who is supposed to be entering the pie 
+         baking contest is you! 
        </Animatable.Text>
+
        <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
-       {'\t'}
+       {'\t'} For some reason, you panic. You look over to see the contest poster on the table, and you realize that if you don't leave now, this pie will never see the light of day.
+      You put on some shoes, grab the pie and poster, and get into your {res[5]}. The time for the contest was 1 o'clock, which meant you had
+       only thirty minutes to get there. You race around wildly, getting lost mutiple times, and finally make it to the venue. Once inside, you're greeted
+       by many people that seem to know you. You quickly fill in the paperwork to enter the contest and walk on stage to present your pie. When asked about the recipe, you mumble something about 
+       how it's a family secret, and the judge nods her head knowingly. Time moves slowly as each judge goes to each contestant and tries their pie.
+      You're nervous and sweaty and you're unsure why, as you yourself had never made a pie in your life. You hope that this mysterious man you had woken up as 
+      would be thankful when you sorted out the mess of waking up in someone else's body. {'\n'}
+
+      {'\t\t'} Finally, the results were announced. "Congratulations, {res[1]}! You've won ${res[6]}!" You feel a little dejected until you realize that it's your 
+      partner! You race over to them and give them a big hug. As they move to take the winner's picture, {res[1]} brings you into the shot. You smile, proud of your
+      partner for winning. You knew what the good things in life were. Afterwards, you and {res[1]} had the real celebration: A picnic in the park with pie as the dessert.
+      {'\n\n'}
+
+
+        {'\t\t'} This is the following prompt I got when I used an online plot generator, verbatim: {'\n'}
+         `A lawyer from Rio de Janeiro is delighted when he gets the chance to take part in the final of a pie eating contest.
+          However, his chances are scuppered when he finds he doesn't have enough money for the train fare. 
+          After the drama, the lawyer realises there is more to life than winning a pie eating contest and goes on a picninc with his neice instead.`
+
      </Animatable.Text>
-         <Image
-       style={{flex:1, height: 300, width: undefined}}
-       source={require('../images/spooky.png')}
-       resizeMode="contain"
-     />
+
        <Animatable.View animation="pulse" easing="ease-out" iterationCount="infinite" style={resultStyle.resultButton}>
      <Button color="#1698bc" title="Go back Home/ Replay?"  onPress={() =>
          navigate('Home')  }/>

@@ -73,7 +73,7 @@ export default class BrightlyLitHouseScreen extends React.Component {
         },
         number: {
         quiz_num: numbers.quiz_num,
-        story_num: 3,
+        story_num: 10,
       },
       love_interest: love_interest,
       cities: cities,

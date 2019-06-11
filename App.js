@@ -193,7 +193,7 @@ class HomeScreen extends React.Component {
       <Button title="How To Play Traditional MASH" color="#796ad8"  onPress={() =>  navigate('Mash') }/>
       </View>
       <View style={styles.buttonSoloStyling}>
-        <Button title="About MASH Adventure" color="#33c18d" onPress={() =>  navigate('MashQuizNumber') }/>
+        <Button title="About MASH Adventure" color="#33c18d" onPress={() =>  navigate('About') }/>
         </View>
 
           </View>

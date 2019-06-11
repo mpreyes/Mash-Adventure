@@ -130,7 +130,7 @@ export default class ResultsScreen extends React.Component {
 </ScrollView>
  <AdMobBanner
  adSize="fullBanner"
- adUnitID="ca-app-pub-5432616899214952/8522331318"
+ adUnitID="ca-app-pub-5432616899214952/2605906568"
  testDevices={[AdMobBanner.simulatorId]}
  onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -257,7 +257,7 @@ export default class ResultsScreen extends React.Component {
 </ScrollView>
  <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
   /> 
@@ -326,7 +326,7 @@ export default class ResultsScreen extends React.Component {
  </ScrollView>
  <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   // onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -368,7 +368,7 @@ export default class ResultsScreen extends React.Component {
  </ScrollView>
  <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -422,7 +422,7 @@ export default class ResultsScreen extends React.Component {
 </ScrollView>
  <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -505,7 +505,7 @@ export default class ResultsScreen extends React.Component {
 
  <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -716,7 +716,7 @@ export default class ResultsScreen extends React.Component {
  </ScrollView>
   <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -839,7 +839,7 @@ export default class ResultsScreen extends React.Component {
  </ScrollView>
   <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> 
@@ -934,7 +934,7 @@ export default class ResultsScreen extends React.Component {
 </ScrollView>
  <AdMobBanner
   adSize="fullBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> 

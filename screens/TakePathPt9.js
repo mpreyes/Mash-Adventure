@@ -57,7 +57,7 @@ export default class TakePathPt9Screen extends React.Component {
 <View style={{flex: 1, paddingVertical: 20, paddingLeft: 15,}}>
         {/* <AdMobBanner
   adSize="mediumRectangle"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
 /> */}

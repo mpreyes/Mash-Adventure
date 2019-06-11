@@ -9,12 +9,9 @@ import No_KidsScreen from './NoKids';
 import styles from '../Styles/Styles';
 
 
-// import {
-//   AdMobBanner,
-//   AdMobInterstitial,
-//   PublisherBanner,
-//   AdMobRewarded,
-// } from 'react-native-admob';
+import {
+  AdMobBanner,
+} from 'react-native-admob';
 
 
 
@@ -134,12 +131,12 @@ export default class ChooseDoorsScreen extends React.Component {
 
     
 
-    {/* <AdMobBanner
+ <AdMobBanner
   adSize="largeBanner"
-  adUnitID="ca-app-pub-5432616899214952/8522331318"
+  adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
-/> */}
+/> 
 
       </View>
 

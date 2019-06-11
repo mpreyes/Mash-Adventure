@@ -58,5 +58,6 @@ buck-out/
 
 #signed key
 
-mash-adventure-key.keystore
+
 gradle.properties
+.vscode/

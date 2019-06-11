@@ -1,4 +1,4 @@
-package com.mashadventure;
+package com.mashadventureapp;
 
 import android.app.Application;
 

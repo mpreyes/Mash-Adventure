@@ -54,7 +54,7 @@ export default class  SeriousWizardEndScreen extends React.Component {
 
       <Text style={styles.questionStyling}>
          {'\t\t'}  The wizard is kind and treats you well. You spend your days learning about different spells, travelling to 
-         different cities and interacting with the townspeople. They begin to get to know you, and soon enough they begin reffering to you
+         different cities and interacting with the townspeople. They begin to get to know you, and soon enough they begin referring to you
          as a wizard rather than an apprentice. Its a comfortable life, and you enjoy it. A few years later, the wizard dies. Before
          he's gone he leaves you with a final gift.
      </Text>

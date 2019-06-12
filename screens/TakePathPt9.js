@@ -9,12 +9,12 @@ import No_KidsScreen from './NoKids';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
 
-// import {
-//   AdMobBanner,
-//   AdMobInterstitial,
-//   PublisherBanner,
-//   AdMobRewarded,
-// } from 'react-native-admob';
+import {
+  AdMobBanner,
+  AdMobInterstitial,
+  PublisherBanner,
+  AdMobRewarded,
+} from 'react-native-admob';
 
 
 export default class TakePathPt9Screen extends React.Component {
@@ -47,7 +47,7 @@ export default class TakePathPt9Screen extends React.Component {
     const type_pet = navigation.getParam('type_pet',{ p1: "Cat", p2: "Dog",p3: "Goat",});
     const numbers  = navigation.getParam('number', {quiz_num: 0, story_num: 0});
 
-      //console.log(this.props.navigation.state.params);
+
     return (
       <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
@@ -55,12 +55,12 @@ export default class TakePathPt9Screen extends React.Component {
 
 
 <View style={{flex: 1, paddingVertical: 20, paddingLeft: 15,}}>
-        {/* <AdMobBanner
+        <AdMobBanner
   adSize="mediumRectangle"
   adUnitID="ca-app-pub-5432616899214952/2605906568"
   testDevices={[AdMobBanner.simulatorId]}
   onAdFailedToLoad={error => console.error(error)}
-/> */}
+/> 
 </View>
 
 

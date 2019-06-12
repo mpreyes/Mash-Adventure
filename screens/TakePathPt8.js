@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput,KeyboardAvoidingView,TouchableOpacity, ScrollView } from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
-import ProfileScreen from './Profile';
-import MashScreen from './Mash';
-import ResultsScreen from './Results';
-import LoveInterestScreen from './LoveInterest';
-import No_KidsScreen from './NoKids';
+import { Text, View, Image, Button, ScrollView } from 'react-native';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
-
 
 export default class TakePathPt8Screen extends React.Component {
   constructor(props) {
@@ -19,10 +12,6 @@ export default class TakePathPt8Screen extends React.Component {
   static navigationOptions = {
     title: 'M.A.S.H.',
   };
-
-
-
-
   render() {
     const { navigate } = this.props.navigation;
     const { navigation } = this.props;
@@ -36,12 +25,13 @@ export default class TakePathPt8Screen extends React.Component {
     const type_pet = navigation.getParam('type_pet',{ p1: "Cat", p2: "Dog",p3: "Goat",});
     const numbers  = navigation.getParam('number', {quiz_num: 0, story_num: 0});
 
-      //console.log(this.props.navigation.state.params);
+
     return (
       <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
-        <Text style={styles.questionStyling}> "You're heartless." You look back to see the old lady sprinting like 
-        an olympic runner. </Text>
+        <Text style={styles.questionStyling}>
+        <Text style={{fontStyle: "italic"}}>"You're heartless."</Text> 
+          You look back to see the old lady sprinting like an olympic runner. </Text>
 
       <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>
               <Image

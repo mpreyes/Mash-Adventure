@@ -50,12 +50,12 @@ export default class DHA_HR_HV_CountSandScreen extends React.Component {
           />
       </Animatable.View>
 
-    <Text style={styles.questionStyling}> {'\t\t'}<Text style={{fontStyle: "italic",}}> Did he say fity thousand grain of sands exactly? It would take forever! </Text>
+    <Text style={styles.questionStyling}> {'\t\t'}<Text style={{fontStyle: "italic",}}> Did he say fifty thousand grain of sands exactly? It would take forever! </Text>
     You couldn't even see properly in this room. The light from the sun was nowhere near strong enough to see what what color the walls were, much less
     count tiny grains of sand. You stand up and give both doors a good try (you didn't want to be the fool who only 
     <Text style={{fontStyle: "italic",}}> thought </Text> he had been locked in a room by a talking fox.) You accept your fate and head to window to look outside.
     It was getting brighter now, which might mean you could start the arduous task of counting. Almost immediately, you begin to feel hungry. Outside is a small 
-     path leading to a beautiful garden full of fresh fruits and vegatebles. You wish that you had the powers of telekineses. 
+     path leading to a beautiful garden full of fresh fruits and vegetables. You wish that you had the powers of telekineses. 
      After an hour of the tedious work, you go back to the open window and see that the raven you met earlier is perched on the ledge.
     You plead with the raven and ask him to bring you something to eat. Fortunately he obliges, bringing you one of the most beautiful apples you had ever
     seen. He sits and talks with you for a while, and leaves when you tell him you need to get back to counting before the sun sets. You turn back to your work. 

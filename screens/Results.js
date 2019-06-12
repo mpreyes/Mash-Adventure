@@ -263,9 +263,7 @@ export default class ResultsScreen extends React.Component {
   /> 
 
 </View>
-
-
-      );
+);
 
     }
     else if(numbers.story_num == 3){
@@ -284,7 +282,7 @@ export default class ResultsScreen extends React.Component {
 
          {'\t\t'} This year it was going to be different. Your quirky best friend had recently found an online service that 
          would let you 'rent-a-boyfriend' for as long as you wanted, just for this very purpose. At first, you thought it was stupid-there's no
-         way you would be desperate enought to rent someone just so you could escape the snide comments. But after running into your cousin Lacy
+         way you would be desperate enough to rent someone just so you could escape the snide comments. But after running into your cousin Lacy
          at the supermarket, she hinted that she was going to announce her engagement to the family and it would be "The event of the year!"
          You realized that not bringing someone would not be an option. {'\n'}
 
@@ -293,10 +291,10 @@ export default class ResultsScreen extends React.Component {
           was currently in your area. As you step outside the airport, you see the snow coming down. You hail one of the remaining cabs to take you to your grandma's cabin and, as you're
           getting in your cab, some rude man sits down before you can. "Hey!" you exclaim. "This is my cab!" he looks over at you as you sit next to him in the backseat.
           "We can share." he says, despite not knowing where you were headed to. The driver takes off, and you learn you are both headed to the same bed and breakfast. (Weird coincidence, huh?) Once you reach your destination, you see how bad the snowstorm has affected this little town.
-          "Sorry, dear. We have only one room booked. It must have been an error in our system. Are you two here together? You can share if you like." the inkeeper tells you. It's at this moment that you realize that this rude man is none 
+          "Sorry, dear. We have only one room booked. It must have been an error in our system. Are you two here together? You can share if you like." the innkeeper tells you. It's at this moment that you realize that this rude man is none 
           other than {res[1]}, your rented boyfriend. You have no choice. You must share a room. {'\n'}
 
-          {'\t\t'} After getting settled in your room, you both head to your grandma's house and start the charade. Your entire family is almost insultingly impressed that you, the slightly more boring, workahaolic member of the family 
+          {'\t\t'} After getting settled in your room, you both head to your grandma's house and start the charade. Your entire family is almost insultingly impressed that you, the slightly more boring, workaholic member of the family 
           could land a catch like {res[1]}. The two weeks seem to pass by in a flash. After a series of hijinks that made you and {res[1]} spend more time together (For example, you made an adorable snowman together, had a snowball fight with all the nieces and nephews, 
           had your very own decorating montage, talked about your hopes and dreams), you realize just how much in common you had with your fake boyfriend. 
           He had a pet {res[7]}, and so did you. You mentioned that you thought that the perfect number of kids to have would be {res[3]} and he agreed. Isn't that all you really need to fall in
@@ -311,7 +309,7 @@ export default class ResultsScreen extends React.Component {
                     />
 
             <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
-          {'\t\t'} By the end of the two weeks its only reasonable that your fake boyfriend has become your real one, and an engagment soon followed. 
+          {'\t\t'} By the end of the two weeks its only reasonable that your fake boyfriend has become your real one, and an engagement soon followed. 
           After the wedding, you moved into a lovely {res[0]}. You had {res[3]} children together (as planned) and
           continued to work as a {res[4]}, where you were able to save ${res[6]} and drive your {res[5]} on a sightseeing trip as a family.
           </Animatable.Text>
@@ -533,7 +531,7 @@ export default class ResultsScreen extends React.Component {
          an expedition south and never came back, (a letter had come saying that he caught pneumonia and died but you knew your father, he probably ran off to avoid his mounting debts)
          the ladies used their "grief and melancholy" as an excuse to go shopping, stating that it was to "help them cope" with these trying times. So up went the debt and down came the income forcing them to let all their staff go 
          making you a sort of jack-of-all-servant-trades or something. Still, if it hadn't been for the will that your father left saying that you would inherit the house
-         at {+profile.age + 1} so long as you lived there, you would have left a long time ago. And as long as your stepfamily 
+         at {+profile.age + 1} so long as you lived there, you would have left a long time ago. And as long as your step-family 
          lived in the house they ran the show. Which meant that you were tasked with picking up after them or let your only inheritance go down in ruins.  {'\n'} 
        </Animatable.Text>
        <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
@@ -553,9 +551,9 @@ export default class ResultsScreen extends React.Component {
         {'\t'} After preparing lunch for the house, you start on the mopping. The large hall, meant for hosting parties, was no small feat to clean. 
         You had just barely finished, when you hear a knock at the door. You drop the mop back in the bucket and open the door. About twenty of the king's 
         men in their full regalia, we standing at your door. "Good afternoon. We are here on behalf of the King to deliver a very special invitation." 
-        Your stemother wasn't kidding. It was very important. The king hadn't thrown a ball in years. "Our Royal Highness, Prince(ss) {res[1]} is throwing 
+        Your stepmother wasn't kidding. It was very important. The king hadn't thrown a ball in years. "Our Royal Highness, Prince(ss) {res[1]} is throwing 
         a ball in honor of their {+profile.age + 2} birth years and requires all young ladies and gentlemen to attend this most important event." He hands you 
-        an impressive looking invitation decorated with gold ink. "Our heir will also choose a consort on this momentous occation, as dicated by laws passed during the reign of King Gregory IV."
+        an impressive looking invitation decorated with gold ink. "Our heir will also choose a consort on this momentous occasion, as dictated by laws passed during the reign of King Gregory IV."
         He bows to you and the whole party moves on to the next house. You look at the invitation, ready to faint. This was your chance. You'd be in the presence 
         of the most important people in the kingdom. Surely, there would be someone needing a {res[4]}'s apprentice! You head back upstairs and give your stepmother
         the invitation. She squeals with anticipation and runs to tell her girls. In the following days that ensue, there's more activity in the house than 
@@ -578,7 +576,7 @@ export default class ResultsScreen extends React.Component {
         {'\n'}
          {'\t\t'} As you make your way there, you see an old lady struggling to load her vegetables into her cart. You carefully place your dress on the edge of the cart, careful to 
          keep it out of the mud, and begin to help her. "Young people these days don't have a care in the world for us old folks." she tells you. 
-         "Good to know there are still some kind ones around." You smile and bend to reach a stray vegatable that had escaped to the side of the road, when your hand meets another. 
+         "Good to know there are still some kind ones around." You smile and bend to reach a stray vegetable that had escaped to the side of the road, when your hand meets another. 
          You straighten up and look into the most beautiful eyes you had ever seen. "Sorry." you say. "It's no trouble at all." they reply, looking at you curiously.
 
 
@@ -605,7 +603,7 @@ export default class ResultsScreen extends React.Component {
        resizeMode="contain"
      />
       <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
-      {'\t'} Soon enough it's the day of the ball. Your gown had arrived and it was the most beautiful thing you had ever seen. Your stepfamily leaves before you in the carriage, so you are forced to walk to town to ride one of the many hired carriages
+      {'\t'} Soon enough it's the day of the ball. Your gown had arrived and it was the most beautiful thing you had ever seen. Your step-family leaves before you in the carriage, so you are forced to walk to town to ride one of the many hired carriages
       going to the palace. As you enter the massive grounds of the king's estate, you begin to feel a little nervous. You see more people walking through the front doors than you
       have ever seen in your entire life! You head inside and are presented with a large ornate dance hall, big enough to fit five or six houses inside of it.  
       So this is what you had been missing? All this time you had imagined balls to be boring and tiresome events, (this was in your imagination of course, you had never actually 
@@ -616,7 +614,7 @@ export default class ResultsScreen extends React.Component {
       </Animatable.Text>
   <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
       A familiar voice interrupts your thoughts. "What's your mission? Are you looking for a suitable match, perhaps?" You look up to an impeccably dressed person 
-      wearing a mask and slightly mischevious smile. "Why, yes I am. Know any {res[4]}s around here?" The smile dissapears. You quickly eleboarate, smiling. "I'm looking for someone who will take me on as an apprentice. Although, I haven't the faintest idea
+      wearing a mask and slightly mischievous smile. "Why, yes I am. Know any {res[4]}s around here?" The smile disappears. You quickly elaborate, smiling. "I'm looking for someone who will take me on as an apprentice. Although, I haven't the faintest idea
       as how to do that. Any thoughts?" The smile returns. "I might know a couple of people in that profession. I could introduce you if you like... but what's in it for me?"
       you knew what they were getting at. "How about a dance?" you say. "That should be more than enough payment for a couple of introductions." 
       They affirm your proposal by leading you out to the dance floor. There's something magical about dancing late in the evening, wearing the most 
@@ -625,7 +623,7 @@ export default class ResultsScreen extends React.Component {
       They smile. "I was...pulled away."
       {'\n'}
       {'\t\t'}The night is getting darker. You sit outside and talk about your hopes and dreams. They tell you about the adventures 
-      they've had training as an apprentice, and you tell them of the countryside and the love you have for the people of this kingdom. Time melts away, and soon enough you hear the unmistakeable sound of the bells signaling it was almost midnight. 
+      they've had training as an apprentice, and you tell them of the countryside and the love you have for the people of this kingdom. Time melts away, and soon enough you hear the unmistakable sound of the bells signaling it was almost midnight. 
       "Listen." you hear yourself say. " I really actually want to know what it is that you do around here and I have lots of other questions for you, but I have to go. Like really have to go. Or I'll be 
       dead in the morning. Goodbye! It was nice meeting you!" you call out as you race back into the dance hall, careful to avoid any sight of your stepmother.
       You race down the palace steps and lose one of your shoes and a hairpin. You hear footsteps behind you calling for you to stop, but you ignore them.
@@ -635,7 +633,7 @@ export default class ResultsScreen extends React.Component {
       </Animatable.Text>
 
      <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}> 
-     {'\t'} You walk back down to the foyer, wondering why no one had come in yet. Suddenly the door opens and a horde of people rush in. Your stepfamily is here, and you count
+     {'\t'} You walk back down to the foyer, wondering why no one had come in yet. Suddenly the door opens and a horde of people rush in. Your step-family is here, and you count
      at least twenty palace guards. Maybe one of your stepsisters had stolen something, you think, secretly laughing. They were prone to do incredibly bizarre things from time to time. 
     Your stepmother approaches you and gives you a look of disapproval. "We have royalty in the house dear, why did you change??" she whispers furiously.
     The entire party of people along with the servants of the house look up, and the impeccably dressed stranger strolls in, panting and sweaty as if they had been running.
@@ -648,7 +646,7 @@ export default class ResultsScreen extends React.Component {
     After the wedding, you moved into the palace and began your professional and etiquette training. After some years and a lot of hard work, you 
     became the royal {res[4]}, tasked with providing your services to the crown and kingdom. Your stepmother and stepsisters took the news of your marriage remarkably well.
      After learning that you would allow them to keep the house, they set out to redecorate the place and make it presentable enough to throw parties and soirees. Your step sisters managed 
-     to get married to lords and your stepmother did well for herself, hosting wealthy travellers at her home. After some years, you and {res[1]} produced {res[3]} healthy heirs and even came into possesion of a pet {res[7]} which 
+     to get married to lords and your stepmother did well for herself, hosting wealthy travellers at her home. After some years, you and {res[1]} produced {res[3]} healthy heirs and even came into possession of a pet {res[7]} which 
      you called slipper; He amused the children to no end (They would chant "We lost our slipper!") when he would suddenly slip off to a room in the house only to be found by {res[1]} and brought to his rightful place once again.{'\n'}
       And yes, you did live happily ever after.{'\n'}
 
@@ -678,19 +676,19 @@ export default class ResultsScreen extends React.Component {
       return(
         <View style={resultStyle.resultsParentStyle}>
         <ScrollView style={resultStyle.rand_8}>
-          <Animatable.Text animation="bounceInDown" style={[material.display2White,resultStyle.headline]}>You Got: The Murder Mystery Ending</Animatable.Text>
+          <Animatable.Text animation="bounceInDown" style={[material.display2White,resultStyle.headline]}>You Got: The Crime Scene Mystery Ending</Animatable.Text>
 
        <Text style={material.titleWhite}>The crime scene was still fresh.</Text>
          <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
-         {'\t'}The police had roped off the front of a nice looking {res[0]} with the unmistakeable yellow tape that told the neighbors that had gathered around to keep away. 
+         {'\t'}The police had roped off the front of a nice looking {res[0]} with the unmistakable yellow tape that told the neighbors that had gathered around to keep away. 
          You stopped by the front door, notebook in hand, and talked to Charlie, the officer in charge. "So Charlie, what do you know?" you say.
          He tells you. "Neighbors heard shouting and sounds of things being thrown. Next thing you know, they hear a bang.
          The victim's name is {profile.name}. Looks to be about {profile.age} years old. Spouse is nowhere to be found. Kids are gone too. According to 
          the neighbors, they have {res[3]}. The place is ransacked. Go on in, and take a look." You go inside, but before you do, you take note of the {res[5]} parked outside. 
          Once inside, you assess the scene and jot down some notes. The home is brightly lit, with big windows and white walls. You head into the living room, where forensic experts are collecting evidence. 
          There are pictures on the mantle above an unlit fireplace. Some are pictures of the family. There's a picture of a {res[7]}, probably their pet. There's some documents on the
-         coffee table indicating that someone here worked as a {res[4]}. You head into the kitchen, where the murder was supposed to have ocurred. 
-         You examine the body, but no visible gunshot wounds or trauma are found. The general consensus among the police is that the spouse might have used 
+         coffee table indicating that someone here worked as a {res[4]}. You head into the kitchen, where the crime was supposed to have ocurred. 
+         You examine the body, but no visible wounds or trauma are found. The general consensus among the police is that the spouse might have used 
          an undetectable form of poison, but no one is sure until the lab results are confirmed.
        </Animatable.Text>
        <Image
@@ -700,11 +698,11 @@ export default class ResultsScreen extends React.Component {
      />
 
        <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
-       {'\t'}After a thorough investigation, the police name the spouse {res[1]} as the main suspect. All they could gather is that the kids were dropped off at their grandparents before the murder occurred.
+       {'\t'}After a thorough investigation, the police name the spouse {res[1]} as the main suspect. All they could gather is that the kids were dropped off at their grandparents before the tragedy occurred.
        Lab results were inconclusive and there was no explanation to the sound that the neighbors had heard.
-       The police were never able to close the case. Before they could call {res[1]} to questioning, they dissapeared, taking most of the couple's savings (${res[6]} to be exact).
-        It was rumoured that they ran off to a neighboring country to avoid the charges. To this day, no one knows where {res[1]} dissapeared to or exactly how the crime was commited. 
-        It's one of the most famous murders that haunts the city of {res[2]} and inspires countless ghost stories told during halloween. 
+       The police were never able to close the case. Before they could call {res[1]} to questioning, they disappeared, taking most of the couple's savings (${res[6]} to be exact).
+        It was rumoured that they ran off to a neighboring country to avoid the charges. To this day, no one knows where {res[1]} disappeared to or exactly how the offense was committed. 
+        It's one of the most famous crimes that haunts the city of {res[2]} and inspires countless ghost stories told during halloween. 
        </Animatable.Text>
 
 
@@ -793,7 +791,7 @@ export default class ResultsScreen extends React.Component {
 
           <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
 
-         {'\t\t'} Heading back into the living room, you see some peculiar artwork on the walls. There's some pretty inocuous paitings of landscapes 
+         {'\t\t'} Heading back into the living room, you see some peculiar artwork on the walls. There's some pretty innocuous paintings of landscapes 
          and animals, but the most prominent piece displayed is one of a giant apple pie. You notice that there are pictures on the bookshelf 
          of a large, bearded man holding up a pie and a trophy, with a big grin on his face. He looks ecstatic in the picture, and you wonder 
          what kind of person he is. Next to him is presumably his partner, smiling beatifically as if they'd just won the lottery. On the frame, an inscription reads <Text style={{fontStyle: "italic",}}>'{profile.name} and {res[1]}, pie baking contest 2018'</Text>
@@ -812,7 +810,7 @@ export default class ResultsScreen extends React.Component {
        <Animatable.Text animation="fadeInUpBig" style={material.subheadingWhite}>
        {'\t'} For some reason, you panic. You look over to see the contest poster on the table, and you realize that if you don't leave now, this pie will never see the light of day.
       You put on some shoes, grab the pie and poster, and get into your {res[5]}. The time for the contest was 1 o'clock, which meant you had
-       only thirty minutes to get there. You race around wildly, getting lost mutiple times, and finally make it to the venue. Once inside, you're greeted
+       only thirty minutes to get there. You race around wildly, getting lost multiple times, and finally make it to the venue. Once inside, you're greeted
        by many people that seem to know you. You quickly fill in the paperwork to enter the contest and walk on stage to present your pie. When asked about the recipe, you mumble something about 
        how it's a family secret, and the judge nods her head knowingly. Time moves slowly as each judge goes to each contestant and tries their pie.
       You're nervous and sweaty and you're unsure why, as you yourself had never made a pie in your life. You hope that this mysterious man you had woken up as 
@@ -827,7 +825,7 @@ export default class ResultsScreen extends React.Component {
         {'\t\t'} This is the following prompt I got when I used an online plot generator, verbatim: {'\n'}
          `A lawyer from Rio de Janeiro is delighted when he gets the chance to take part in the final of a pie eating contest.
           However, his chances are scuppered when he finds he doesn't have enough money for the train fare. 
-          After the drama, the lawyer realises there is more to life than winning a pie eating contest and goes on a picninc with his neice instead.`
+          After the drama, the lawyer realizes there is more to life than winning a pie eating contest and goes on a picnic with his niece instead.`
 
      </Animatable.Text>
 
@@ -848,7 +846,7 @@ export default class ResultsScreen extends React.Component {
 
       );
 
-    }
+     }
     else{
     return (
       <View style={resultStyle.resultsParentStyle}>

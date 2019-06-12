@@ -53,7 +53,7 @@ export default class HA_DHR_HV_PlantSeedScreen extends React.Component {
     <Text style={styles.questionStyling}> {'\t\t'}Nothing immediately comes to mind. Everything is the same as it was, except the ants have made their way out 
     of the window now. You follow the last of them to look outside. Down below the tower is a small path that leads to a garden. You spot 
     some really nice looking apple trees and realize that after running around all night, you're famished. You stare longingly at the apples, 
-    wishing that you had the powers of telekenises.
+    wishing that you had the powers of telekinesis.
     </Text>
     
     <Text style={styles.questionStyling}>

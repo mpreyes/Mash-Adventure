@@ -50,7 +50,7 @@ export default class HA_DHR_HV_CountSandScreen extends React.Component {
           />
       </Animatable.View>
 
-    <Text style={styles.questionStyling}> {'\t\t'}<Text style={{fontStyle: "italic",}}>Did he say fity thousand grain of sands exactly? It would take forever! </Text>
+    <Text style={styles.questionStyling}> {'\t\t'}<Text style={{fontStyle: "italic",}}>Did he say fifty thousand grain of sands exactly? It would take forever! </Text>
     You couldn't even see properly in this room. The light from the sun was nowhere near strong enough to see what what color the walls were, much less
     count tiny grains of sand. You stand up and give both doors a good try (you didn't want to be the fool who only 
     <Text style={{fontStyle: "italic",}}> thought </Text> he had been locked in a room by a talking fox.) You accept your fate and head to window to look outside.

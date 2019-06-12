@@ -55,7 +55,7 @@ export default class SnackbarScreen extends React.Component {
     don't immediately grab anything. You're a professional. {'\n'} 
     {'\t\t'}You smile and say hi to some people you obviously don't know and pretend dance for a bit before feigning exhaustion. 'I'm gonna get 
     myself a snack!' you say to no one in particular. You grab a small plate and begin piling it on, even as you're munching away. As you reach the end of the table you stop. 
-    This was a birthday party for someone! The remaining two giftbags are just sitting there. Calling your name. You really hit the jackpot.
+    This was a birthday party for someone! The remaining two gift bags are just sitting there. Calling your name. You really hit the jackpot.
      Which one do you grab? 
      </Text>
 

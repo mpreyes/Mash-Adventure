@@ -60,8 +60,8 @@ export default class  SeriousWizardChoiceScreen extends React.Component {
          "B-but how are you here?" you ask. "Well this is my home!" he exclaims, as the dog cheerfully licks his hand. "This is Lae!" he says.
          "I told him to bring you here, as I had some urgent matters to attend to that I couldn't bring you on. I hope you do forgive me."
          He stands up from the table and shakes your hand. "My name is Chester, and I'm the town's wizard. I help the townspeople with some 
-         small magic as well as travel around the kindom in search for new spells. I also help the king and his magicians from time to time. I've 
-         been looking for an apprentice for quite some time." he looks a you expectantly. You hesitate. If you want more excitment than a small town wizard can provide, I hear Enelle is looking for an apprentice as well. She might
+         small magic as well as travel around the kingdom in search for new spells. I also help the king and his magicians from time to time. I've 
+         been looking for an apprentice for quite some time." he looks a you expectantly. You hesitate. If you want more excitement than a small town wizard can provide, I hear Enelle is looking for an apprentice as well. She might
         be willing to take you on, but its a lot more difficult and dangerous. 
      </Text>
 

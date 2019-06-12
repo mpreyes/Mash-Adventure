@@ -73,7 +73,7 @@ export default class HA_HR_DHV_CountSandScreen extends React.Component {
 
     <Animatable.View animation="slideInUp" style={styles.adventureGroupButtonStyling}>
       <View style={styles.adventureSoloButtonStyling}>
-  <Button  title="Look around the rooooom for clues"  color="#1698bc"  onPress={() =>
+  <Button  title="Look around the room for clues"  color="#1698bc"  onPress={() =>
       navigate('HA_HR_DHV_EscapeRoom', {
       profile: profile,
       mash: {

@@ -42,7 +42,7 @@ export default class FightMonsterScreen extends React.Component {
 
      <Text style={styles.questionStyling}>
      {'\t\t'} Through the door is a long and dusty corridor. You're eager to be out of the dark prison you had been stuck in, but can't help but admire your 
-     surroundings. The walls are lined with paintings of beautiful scenery and upon closer inspection, it seems like every paiting has an oddly placed tree somewhere. The rabbit leads you down long 
+     surroundings. The walls are lined with paintings of beautiful scenery and upon closer inspection, it seems like every painting has an oddly placed tree somewhere. The rabbit leads you down long 
      and winding steps, and the darkness does not make it easy to walk. You stumble a few times but finally reach the end, finding yourself
      in a large and richly furnished dining room. The rabbit stops at the table. "Well dearie, this is all I can help you with. You've got to find your way
      out of this one by yourself! Be careful." And with that, the rabbit hops back up the steps, presumably back to where the top hat had brought her from.

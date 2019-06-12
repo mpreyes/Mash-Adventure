@@ -54,7 +54,7 @@ export default class CuteOldManEndScreen extends React.Component {
 
     <Text style={styles.storyStyling}>
     {'\t\t'}Gilbert leads you into the house and asks you to help him get his things. Inside, you find the messiest house 
-    you've ever seen. There's confetti on the floor, cups and plates scattered througout, and colorful scarves everywhere. {'\n'}
+    you've ever seen. There's confetti on the floor, cups and plates scattered throughout, and colorful scarves everywhere. {'\n'}
    {'\t\t'}Gilbert heads to a giant trunk in the middle of the living room and starts rummaging around. After a bit, he pulls out a giant
    sword. 'Aha! Here it is. Take it.' Gilbert hands you the sword.
     Upon closer inspection, you see that it is very real. With more strength than you thought a little man could possibly have, Gilbert then begins 

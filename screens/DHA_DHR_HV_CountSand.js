@@ -55,7 +55,7 @@ export default class DHA_DHR_HV_CountSandScreen extends React.Component {
     count tiny grains of sand. You stand up and give both doors a good try (you didn't want to be the fool who only 
     <Text style={{fontStyle: "italic",}}> thought </Text> he had been locked in a room by a talking fox.) You accept your fate and head to window to look outside.
      It was getting brighter now, which might meant you could start the arduous task of counting. Almost immediately, you begin to feel hungry. Outside is a small 
-     path leading to a beautiful garden full of fresh fruits and vegatebles. You wish that you had the powers of telekineses. You move away from the 
+     path leading to a beautiful garden full of fresh fruits and vegetables. You wish that you had the powers of telekineses. You move away from the 
     window and begin to count, wishing there were someone to help you. After an hour of the tedious work, you go back to the open window and see that the raven you met earlier is perched on the ledge.
     You plead with the raven and ask him to bring you something to eat. Fortunately he obliges, bringing you one of the most beautiful apples you had ever
     seen. He sits and talks with you for a while, and leaves when you tell him you need to get back to counting before the sun sets. 

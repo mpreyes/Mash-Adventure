@@ -42,7 +42,7 @@ export default class AboutScreen extends React.Component {
      and pencil and getting together with my friends to play the traditional version of M.A.S.H. 
      I would come up with ridiculous stories to serve as background for their fortunes, and the idea to add an 
      element of storytelling stuck with me. This game combines my all my favorite childhood pastimes: M.A.S.H., 
-      choose your own adventure books, and good old fancfiction. There are eleven possible endings in this first version, so I hope you 
+      choose your own adventure books, and good old fanfiction. There are eleven possible endings in this first version, so I hope you 
       get a chance to read them all. As a side note, I started out writing these stories as gender neutral as possible so that both
       guys and girls could play the game, but it was soon made clear that it was hard to write a story that way. So if you're reading a story
       that has a set gender for a character, feel free to replace them with whoever you want in your mind.  {'\n'}
@@ -50,9 +50,7 @@ export default class AboutScreen extends React.Component {
      </Animatable.Text>
      
      <Animatable.Text animation="fadeInUpBig" style={material.subheading}>
-     {'\t'} I hope this is as fun to play as it was to create. If you want to find me,
-    
-   head over to my website, <Text style={{color: 'blue'}} onPress={() => Linking.openURL('https://mpreyes.github.io')}>mpreyes.github.io</Text>.
+     {'\t'} I hope this is as fun to play as it was to create!
     {'\n'}
 
        </Animatable.Text>

@@ -56,7 +56,6 @@ export default class DHA_HR_HV_EscapeRoomScreen extends React.Component {
     "Wow, what a great trick!" you exclaim. "It's not a trick, dearie. It's magic!" The rabbit, who you recognize as the one you had met earlier, exclaims. "Now, we need to get you out 
     of here. There's not a moment to lose!" She hops back in to the top hat and for a moment, all is quiet. Suddenly, she hops out of the hat again and in her 
     mouth is a large brass key. "Ta da! I'm here all night folks." You spring into action and use the key to open the door.
-
     {'\n'}
     </Text>
 

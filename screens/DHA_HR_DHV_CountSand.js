@@ -50,15 +50,15 @@ export default class DHA_HR_DHV_CountSandScreen extends React.Component {
           />
       </Animatable.View>
 
-    <Text style={styles.questionStyling}> {'\t\t'}<Text style={{fontStyle: "italic",}}> Did he say fity thousand grain of sands exactly? It would take forever! </Text>
+    <Text style={styles.questionStyling}> {'\t\t'}<Text style={{fontStyle: "italic",}}> Did he say fifty thousand grain of sands exactly? It would take forever! </Text>
     You couldn't even see properly in this room. The light from the sun was nowhere near strong enough to see what what color the walls were, much less
     count tiny grains of sand. You stand up and give both doors a good try (you didn't want to be the fool who only 
     <Text style={{fontStyle: "italic",}}> thought </Text> he had been locked in a room by a talking fox.) You accept your fate and head to window to look outside.
      It was getting brighter now, which might meant you could start the arduous task of counting. Almost immediately, you begin to feel hungry. Outside is a small 
-     path leading to a beautiful garden full of fresh fruits and vegatebles. You wish that you had the powers of telekineses. You move away from the 
+     path leading to a beautiful garden full of fresh fruits and vegetables. You wish that you had the powers of telekineses. You move away from the 
     window and begin to count, wishing there were someone to help you. Each tiny grain of sand must be moved
     to the scale as carefully as possible. The wind from the window doesn't help. Your head aches from hunger and exhaustion.
-    After about an hour of counting, you hear a rusle from the other side of the room.
+    After about an hour of counting, you hear a rustle from the other side of the room.
     {'\n'}
     </Text>
 

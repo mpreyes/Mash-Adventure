@@ -58,7 +58,7 @@ export default class WaitAtStumpScreen extends React.Component {
       </Animatable.View>
 
       <Text style={styles.storyStyling}>
-    {'\t\t'} It doens't dawn on you until, well, dawn, that the old man is not coming back. Maybe he
+    {'\t\t'} It doesn't dawn on you until, well, dawn, that the old man is not coming back. Maybe he
     forgot about you. Or a dragon ate him. Or he's stuck in another dimension. Oh well. It would have been
     cool to have been a real wizard and do magic like in Harry Potter.
      You take your leave of the tired old stump and head back to the hill you came from. {'\n'}

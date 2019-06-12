@@ -57,8 +57,8 @@ export default class HA_DHR_DontHelpRavenScreen extends React.Component {
     door and leads you inside. The walls of the tower are made of stone, as is the narrow staircase that the fox begins to climb. "Almost there, human." he tells you, 
     sensing that you are tired and weary. After climbing many flights of stairs, you reach another door. "Here it is. We've arrived." You open the door and walk inside.
     The room is poorly lit, as there's only a small window and it has a subtle smell of the ocean. On one side of the room you can see a large pile of sand higher than
-    your head, and on the other side next to another door sits a scale and a small box, among other things. There's a rope fixed to the scale and box that stretches out to the ceiling of the room. You hadn't realized that the fox had not followed you in 
-until- "Good luck human. Only fifty thousand grains of sand will open the box." The door closes, and you hear the fox start the long climb downstairs. "Wait!" you call.
+    your head, and on the other side next to another door sits a scale and a small box, among other things. There's a rope fixed to the scale and box that stretches out to the ceiling of the room.
+     You hadn't realized that the fox had not followed you in until- "Good luck human. Only fifty thousand grains of sand will open the box." The door closes, and you hear the fox start the long climb downstairs. "Wait!" you call.
 "You lied to me! Where's the wizard? And what happened to the lady that was dying?" No answer. You're stuck in the room.
      </Text>
 

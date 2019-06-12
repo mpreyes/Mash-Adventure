@@ -125,12 +125,6 @@ export default class ChooseDoorsScreen extends React.Component {
     )} />
     </View>
    
-
-
-
-
-    
-
  <AdMobBanner
   adSize="largeBanner"
   adUnitID="ca-app-pub-5432616899214952/2605906568"

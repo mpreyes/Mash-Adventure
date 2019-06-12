@@ -42,7 +42,7 @@ export default class DinnerPartyScreen extends React.Component {
 
     <Text style={styles.storyStyling}>
     {'\t\t'}You approach her just as she's bringing out a tray full of napkins and silverware. "Hey, let me help you 
-    with that." You take the tray and begin to distribute it amongts the guests. You exchange pleasant hellos 
+    with that." You take the tray and begin to distribute it amongst the guests. You exchange pleasant hellos 
     and learn that the birthday girl is a professional ballet dancer. Most of her guests are part of a big name traveling dance group that's shes in. Good thing you didn't try your dance moves in front of them. {'\n'}
       </Text>
       <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>
@@ -55,7 +55,7 @@ export default class DinnerPartyScreen extends React.Component {
       </Animatable.View>
 
       <Text style={styles.storyStyling}>
-    {'\t\t'} When you've finished passing out the silveraware, you check back in with the hostess. "Any thing else I can help 
+    {'\t\t'} When you've finished passing out the silverware, you check back in with the hostess. "Any thing else I can help 
     with?" you ask. She nods her head. "Will you help me get the cake? It's pretty big and I can't carry it by myself." 
     You nod you head, and ask the question that's been on your mind this entire time. "How come you're doing everything, when it's 
     your birthday? Shouldn't other people be doing this?" She gives you a look. "It's not my birthday! I'm not the birthday girl." She

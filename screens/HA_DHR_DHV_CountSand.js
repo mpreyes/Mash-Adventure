@@ -73,7 +73,7 @@ export default class HA_DHR_DHV_CountSandScreen extends React.Component {
 
       <Text style={styles.questionStyling}>
      {'\t\t'}  You pace around the room looking for a clue or some way out, but there's nothing. Outside is a lovely garden
-     full of fresh fruits and vegatables, and you realize you've been hungry for quite some time. You wish you had the powers of telekinesis. 
+     full of fresh fruits and vegetables, and you realize you've been hungry for quite some time. You wish you had the powers of telekinesis. 
      Soon enough, the day begins to turn dark and you're left in the dark room alone. "You are not worthy." are the last words you hear before everything turns black.
      </Text>
 

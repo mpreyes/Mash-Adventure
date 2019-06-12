@@ -41,11 +41,11 @@ export default class MingleAtPartyScreen extends React.Component {
         <Text style={styles.questionStyling}>You think maybe you'll stay and enjoy the party. </Text>
 
     <Text style={styles.questionStyling}>
-    {'\t'}You walk around trying to scope out the crowd. Its a small group of people that are out barbaqueing and milling about.
+    {'\t'}You walk around trying to scope out the crowd. Its a small group of people that are out barbecuing and milling about.
     Someone has brought a boombox and laid out some flooring to dance on, although everyone seems to be ignoring it in favor for 
     talking in small groups. You talk to some people and are surprised to hear that it's someone's 
     birthday party. You look around and quickly identify the birthday girl. She's wearing a pretty sundress and a 
-    giant hat that says "ITS MY BRITHDAY" on it. She's running around filling people's cups, making sure the food is stocked,
+    giant hat that says "ITS MY BIRTHDAY" on it. She's running around filling people's cups, making sure the food is stocked,
     and generally playing the host of the party rather than enjoying it. {'\n'}
 
     </Text>

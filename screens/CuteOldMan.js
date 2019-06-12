@@ -56,7 +56,7 @@ export default class CuteOldManScreen extends React.Component {
    he needs to prepare for tonight. He rambles on about how his last assistant ran off with the ring leader of the nearby circus and then you hear something about
    not being small enough to fit...  {'\n'}
    {'\t\t'}You're not really paying attention though, because you're thinking of all the hopes and dreams you have and how you're finally going to get your life together this year. 
-   You'll travel more. Finally hit the gym. Heck maybe even meditate. You'll say yes to new experinences that come 
+   You'll travel more. Finally hit the gym. Heck maybe even meditate. You'll say yes to new experiences that come 
    your way. All of life's big questions are swirling around in your brain. Why was I born?' 'What is my purpose?' 'What does love really mean?'  {'\n'}
    
    {'\t\t'} Lost in your thoughts, you continue to walk down the 

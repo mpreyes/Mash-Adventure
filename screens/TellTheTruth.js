@@ -62,7 +62,7 @@ export default class TellTheTruthScreen extends React.Component {
       <Text style={styles.questionStyling}>
     {'\t\t'}At that, the fox runs off. You hear some rustling of grasses here and there but on the whole,
     the area is pretty quiet. It probably went back to it's friends to tell them the wizard was nowhere to be found.
-    You continue to sit there, when all of a suddent it's back. "Ay homie. you said you were going to be 
+    You continue to sit there, when all of a sudden it's back. "Ay homie. you said you were going to be 
     the wizard dudes apprentice, right?" When you nod, he does a weird little shuffle. "Okay then, follow me." 
     He darts off. "Hey but I'm supposed to wait here! " you call out. No response. The fox is well on it's way and 
     if you don't move now, you'll lose him. {'\n'}

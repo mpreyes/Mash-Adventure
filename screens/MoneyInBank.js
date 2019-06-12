@@ -45,9 +45,6 @@ export default class Money_In_BankScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     const { navigation } = this.props;
-
-    //console.log("in money in bank");
-    //  console.log(this.props.navigation.state.params);
     return (
       <View style={styles.parentViewStyling}>
 

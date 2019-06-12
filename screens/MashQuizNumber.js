@@ -22,17 +22,17 @@ export default class MashQuizNumberScreen extends React.Component {
    
 };
 
-setInterval(() => {
+setInterval((state) => {
   this.setState(previousState => {
     return { isShowingQuestion:  true };
   });
-}, 3000);
+}, 1000);
 
-setInterval(() => {
+setInterval((state) => {
   this.setState(previousState => {
     return { isShowingRandomNum: true,  isDisabledButton: false};
   });
-}, 1000);
+}, 3000);
 
 }
 

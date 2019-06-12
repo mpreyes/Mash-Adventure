@@ -52,7 +52,7 @@ export default class CitiesScreen extends React.Component {
 
          <View style={styles.parentViewStyling}>
 
-    <Text style={styles.questionStyling}>Choose three locations </Text>
+    <Text style={styles.questionStyling}>Choose three locations</Text>
 
       <Animatable.View animation="fadeInDown"  direction="alternate" style={styles.imageViewStyling}>
               <Image

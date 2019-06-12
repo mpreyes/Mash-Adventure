@@ -42,9 +42,6 @@ export default class No_KidsScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     const { navigation } = this.props;
-
-    //console.log("in no kids");
-  //  console.log( this.props.navigation.state.params);
     return (
       <View style={styles.parentViewStyling}>
 

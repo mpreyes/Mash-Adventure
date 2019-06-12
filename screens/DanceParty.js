@@ -63,8 +63,8 @@ export default class DancePartyScreen extends React.Component {
      you give the people your attempt at the splits. "Ayy come on guys!" you call.  No one joins you. 
      In fact, everyone is looking at you like a wild monkey that just escaped from the zoo.{'\n'}
 
-     {'\t\t'} Thanfully, someone shuts off the boom box and everyone resumes their conversations. The hostess
-     strides over to you with an irritated look on her face. "Hey, I don't recoginze you. Do you have an invitation?" 
+     {'\t\t'} Thankfully, someone shuts off the boom box and everyone resumes their conversations. The hostess
+     strides over to you with an irritated look on her face. "Hey, I don't recognize you. Do you have an invitation?" 
     You panic, and do the only thing you can think of to do.
      </Text>
 

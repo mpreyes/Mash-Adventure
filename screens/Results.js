@@ -1,21 +1,11 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput,Alert, ScrollView, TouchableHighlight} from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
+import React from 'react';
+import { Text, View,  Image, Button, ScrollView} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import ProfileScreen from './Profile';
-import MashScreen from './Mash';
-import LoveInterestScreen from './LoveInterest';
-import CitiesScreen from './Cities';
-import No_KidsScreen from './NoKids';
-import styles from '../Styles/Styles';
 import resultStyle from '../Styles/resultStyle';
 import { material } from 'react-native-typography';
 
 import {
   AdMobBanner,
-  AdMobInterstitial,
-  PublisherBanner,
-  AdMobRewarded,
 } from 'react-native-admob';
 
 

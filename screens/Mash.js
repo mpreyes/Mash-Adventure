@@ -1,17 +1,8 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput, ScrollView } from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
-
-import ProfileScreen from './Profile';
-import ResultsScreen from './Results';
-import LoveInterestScreen from './LoveInterest';
-import CitiesScreen from './Cities';
-import No_KidsScreen from './NoKids';
+import React from 'react';
+import { Text, View,  Image, Button, ScrollView } from 'react-native';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
 import { material } from 'react-native-typography';
-import resultStyle from '../Styles/resultStyle';
-
 
 export default class MashScreen extends React.Component {
 

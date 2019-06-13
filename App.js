@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput } from 'react-native';
+import React from 'react';
+import { StyleSheet, View, Image, Button } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation'; // 2.5.5
 import Swiper from 'react-native-swiper';
 import ProfileScreen from './screens/Profile';

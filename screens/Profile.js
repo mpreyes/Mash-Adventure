@@ -1,13 +1,6 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput,KeyboardAvoidingView,TouchableHighlight, Keyboard } from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
+import React from 'react';
+import { Text, View, Image, Button, TextInput,KeyboardAvoidingView, Keyboard } from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import MashScreen from './Mash';
-import ResultsScreen from './Results';
-import LoveInterestScreen from './LoveInterest';
-import CitiesScreen from './Cities';
-import No_KidsScreen from './NoKids';
-import AboutScreen from './About';
 import styles from '../Styles/Styles';
 
 export default class ProfileScreen extends React.Component {

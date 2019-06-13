@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Text, View, Image, Button, ScrollView } from 'react-native';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
@@ -30,7 +30,7 @@ export default class TakePathPt8Screen extends React.Component {
       <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>
         <Text style={styles.questionStyling}>
-        <Text style={{fontStyle: "italic"}}>"You're heartless."</Text> 
+        <Text style={{fontStyle: "italic"}}>"You're heartless." </Text> 
           You look back to see the old lady sprinting like an olympic runner. </Text>
 
       <Animatable.View animation="fadeInDown"  direction="alternate" style={{flex: 2}}>

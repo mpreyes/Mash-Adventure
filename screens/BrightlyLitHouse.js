@@ -1,19 +1,12 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput,KeyboardAvoidingView,TouchableOpacity, ScrollView } from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
-import ProfileScreen from './Profile';
-import MashScreen from './Mash';
-import ResultsScreen from './Results';
-import LoveInterestScreen from './LoveInterest';
-import No_KidsScreen from './NoKids';
+import React from 'react';
+import { Text, View, Image, Button, ScrollView } from 'react-native';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
-
 
 export default class BrightlyLitHouseScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {quiz_num: 2, //story_num: Math.floor(Math.random() * 10)};
+    this.state = {quiz_num: 2, 
     story_num: 1, };
   }
   static navigationOptions = {
@@ -34,7 +27,6 @@ export default class BrightlyLitHouseScreen extends React.Component {
     const type_pet = navigation.getParam('type_pet',{ p1: "Cat", p2: "Dog",p3: "Goat",});
     const numbers  = navigation.getParam('number', {quiz_num: 0, story_num: 0});
 
-      //console.log(this.props.navigation.state.params);
     return (
       <View style={styles.parentViewStyling}>
       <ScrollView style={styles.textStyling}>

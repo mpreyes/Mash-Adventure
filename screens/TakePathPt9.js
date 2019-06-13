@@ -1,37 +1,23 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput,KeyboardAvoidingView,TouchableOpacity, ScrollView } from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
-import ProfileScreen from './Profile';
-import MashScreen from './Mash';
-import ResultsScreen from './Results';
-import LoveInterestScreen from './LoveInterest';
-import No_KidsScreen from './NoKids';
+import React from 'react';
+import { Text, View,  Image, Button,  ScrollView } from 'react-native';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
 
 import {
   AdMobBanner,
-  AdMobInterstitial,
-  PublisherBanner,
-  AdMobRewarded,
 } from 'react-native-admob';
 
 
 export default class TakePathPt9Screen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {quiz_num: 2, //story_num: Math.floor(Math.random() * 10)};
+    this.state = {quiz_num: 2, 
     story_num: 1, };
   }
 
-//   componentWillMount(){
-//     AdMobInterstitial.setAdUnitID('ca-app-pub-5432616899214952/2815720824');
-// AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
-// AdMobInterstitial.requestAd().then(() => AdMobInterstitial.showAd());
-//   }
-//   static navigationOptions = {
-//     title: 'M.A.S.H.',
-//   };
+  static navigationOptions = {
+    title: 'M.A.S.H.',
+  };
 
 
   render() {

@@ -1,11 +1,5 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, AppRegistry, Image, Button, TextInput,KeyboardAvoidingView,TouchableOpacity, ScrollView } from 'react-native';
-import { createStackNavigator } from 'react-navigation'; // 2.5.5
-import ProfileScreen from './Profile';
-import MashScreen from './Mash';
-import ResultsScreen from './Results';
-import LoveInterestScreen from './LoveInterest';
-import No_KidsScreen from './NoKids';
+import React from 'react';
+import { Text, View,  Image, Button, ScrollView } from 'react-native';
 import styles from '../Styles/Styles';
 import * as Animatable from 'react-native-animatable';
 

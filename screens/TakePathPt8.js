@@ -6,7 +6,7 @@ import * as Animatable from 'react-native-animatable';
 export default class TakePathPt8Screen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {quiz_num: 2, //story_num: Math.floor(Math.random() * 10)};
+    this.state = {quiz_num: 2, 
     story_num: 1, };
   }
   static navigationOptions = {

@@ -14,7 +14,6 @@ export default class TransportationScreen extends React.Component {
   };
   validateAndNavigate = () => {
 
-  //console.log("Let's validate & navigate!");
   if(this.state.v1 != '' && this.state.v2 != '' && this.state.v3 != ''){
    this.props.navigation.navigate('Money_In_Bank', {
           profile: this.props.navigation.getParam('profile', 'default profile'),
@@ -38,8 +37,6 @@ export default class TransportationScreen extends React.Component {
   render() {
     const { navigate } = this.props.navigation;
     const { navigation } = this.props;
-  //  console.log("in vehicles");
-  //  console.log( this.props.navigation.state.params);
     return (
       <View style={styles.parentViewStyling}>
 

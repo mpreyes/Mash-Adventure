@@ -1,8 +1,8 @@
-![alt text](https://github.com/mpreyes/Mash-Adventure/blob/master/images/MASH.png)
+![alt text](https://github.com/mpreyes/Mash-Adventure/blob/master/images/MA_HomeScreen.jpg)
 
 # A React Native project made for funsies. Summer 2018.
 
-
+## M.A.S.H. Adventure combines the original M.A.S.H. game with choose your own adventure stories and fanfiction-style endings. Great for people who like to read.
 
 Made with: 
 React-Native, Javasscript, HTML, & CSS.

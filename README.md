@@ -1,4 +1,7 @@
 <img src="https://github.com/mpreyes/Mash-Adventure/blob/master/images/MA_HomeScreen.jpg" width="250">
+<img src="https://github.com/mpreyes/Mash-Adventure/blob/master/images/Wizards_Screenshot.jpg" width="250">
+<img src="https://github.com/mpreyes/Mash-Adventure/blob/master/images/MagicNumber_Screen.jpg" width="250">
+
 
 
 # A React Native project made for funsies. Summer 2018.

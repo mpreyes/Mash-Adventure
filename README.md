@@ -1,4 +1,5 @@
-![alt text](https://github.com/mpreyes/Mash-Adventure/blob/master/images/MA_HomeScreen.jpg)
+<img src="https://github.com/mpreyes/Mash-Adventure/blob/master/images/MA_HomeScreen.jpg" width="250">
+
 
 # A React Native project made for funsies. Summer 2018.
 
